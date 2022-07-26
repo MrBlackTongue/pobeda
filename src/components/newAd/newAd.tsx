@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React  from 'react';
 import {
   Button,
   Form,
@@ -15,7 +15,7 @@ const NewAd = () => {
       labelCol={{ span: 4 }}
       wrapperCol={{ span: 14 }}
       layout="vertical"
-      style={{marginLeft: '30px'}}
+      style={{marginLeft: '40rem', width: 500}}
       // initialValues={{ size: componentSize }}
       // onValuesChange={onFormLayoutChange}
       // size={componentSize as SizeType}

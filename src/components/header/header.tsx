@@ -1,10 +1,20 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 import './header.css';
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <p>Header</p>
+    <header className="header">
+      <nav>
+        <ul className="nav">
+          <li>
+            <Link to='/'>Главная</Link>
+            <Link to='/ads'>Объявления</Link>
+            <Link to='/newAd'>Создать новое</Link>
+          </li>
+        </ul>
+      </nav>
+    </header>
   )
 }
 
