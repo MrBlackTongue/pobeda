@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import 'antd/dist/antd.css';
+// import ru_RU from 'antd/lib/locale/ru_RU';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
