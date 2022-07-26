@@ -1,0 +1,42 @@
+.flexCenter {
+    display: flex;
+    justify-content: center;
+}
+
+.paddingTop {
+    margin-top: 28px;
+    width: 100%;
+}
+
+.greenButton {
+    color: #31aa2d;
+}
+
+.greenButton:hover {
+    color: #31aa2d;
+    border-color: #31aa2d;
+}
+
+.greenButton:active {
+    color: #31aa2d;
+    border-color: #31aa2d;
+}
+
+.greenButton:focus {
+    color: #31aa2d;
+    border-color: #31aa2d;
+}
+
+.centerTitle {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.elipsisText {
+    color: #1890ff;
+    cursor: pointer;
+}
+.paragraf {
+    margin-bottom: 0 !important;
+}

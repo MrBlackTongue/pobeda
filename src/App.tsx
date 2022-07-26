@@ -3,10 +3,11 @@ import './App.css';
 import Header from "./components/header/header";
 import {Routes, Route} from "react-router-dom";
 import NewAd from "./components/newAd/newAd";
+import Ads from "./components/ads/ads";
 
 function App() {
   return (
-    <NewAd/>
+    <Ads/>
     // <Routes>
     //   <Route path='/' element={<Header/>}/>
     // </Routes>
